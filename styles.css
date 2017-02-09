@@ -1,0 +1,79 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #eee;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+h3
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #901F07;
+}
+
+h1 { font-size: 2.25em; } 
+h2 { font-size: 1.75em; } 
+h3 { font-size: 1.375em; }
+h4 { font-size: 1em; }
+
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+
+a:link { color: royalblue; }
+
+
+.container
+{
+	max-width: 50em;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.header
+{
+	color: #fff;
+	background: #901F07;
+	padding: 1em 1.25em;
+}
+
+.header-heading { margin: 0; }
+
+.nav-bar
+{
+	color: #fff;
+	background: #D35034;
+	padding: 0;
+}
+
+.content { padding: 1em 1.25em; }
+
+.footer
+{
+	color: #fff;
+	background: #901F07;
+	padding: 1em 1.25em;
+}
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+.img-responsive { max-width: 100%; }
+
+@media (min-width: 42em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.footer { padding: 2em 3em; }
+}
